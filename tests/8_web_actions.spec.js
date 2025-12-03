@@ -24,6 +24,14 @@ await page.locator('[href="#5-radio"]').click()
 
 await page.locator('#maleRadio').check()
 
+// checkbox - check and uncheck 
+
+await page.locator('//a[@href="#6-checkbox"]').click()
+
+await page.locator('#subscribeChk').check()
+
+await page.locator('#subscribeChk').uncheck()
+
 
 }
 
