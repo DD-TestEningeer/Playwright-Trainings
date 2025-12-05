@@ -17,6 +17,7 @@ test('Screenshot demo', async ({ page }) => {
 
  await page.locator('//section[@id="1-text-input"]').screenshot({ path: 'SectionElementScreenshot.png' });
 
+ // manual delay similar to Thread.sleep(1000) in java
   await page.waitForTimeout(10000)
 
   
